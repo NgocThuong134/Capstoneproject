@@ -2,17 +2,20 @@
 
 Chào mừng bạn đến với dự án này! Dự án bao gồm một ứng dụng client được xây dựng bằng React và Tailwind CSS, cùng với hai server sử dụng Node.js.
 
+---
 ## Cấu Trúc Thư Mục
 
 - `client2/`: Thư mục chứa ứng dụng client.
 - `SERVER2/`: Thư mục chứa server chính.
 - `SOCKET/`: Thư mục chứa server socket.
 
+---
 ## Yêu Cầu Hệ Thống
 
 - Node.js >= 14.x
 - Yarn
 
+---
 ## Hướng Dẫn Cài Đặt
 
 ### 1. Cài Đặt Client
@@ -63,6 +66,18 @@ Chào mừng bạn đến với dự án này! Dự án bao gồm một ứng d�
    npm start
    ```
 
+---
+## Môi Trường
+
+Tạo file `.env` trong thư mục `SERVER2` và thêm các biến môi trường cần thiết:
+
+```
+PORT=5000
+DATABASE_URL=mongodb://localhost:27017/mydb
+SECRET_KEY=mysecretkey
+```
+
+---
 ## Thư Mục Không Cần Đưa Lên Git
 
 Để tránh đẩy các thư mục không cần thiết lên GitHub, hãy đảm bảo rằng bạn đã thêm các thư mục sau vào file `.gitignore`:
@@ -75,6 +90,12 @@ SERVER2/node_modules
 SOCKET/node_modules
 ```
 
+---
+## Liên Hệ & Đóng Góp
+
+Nếu bạn gặp vấn đề hoặc có ý tưởng cải tiến, hãy mở một issue trên repository hoặc liên hệ với nhóm phát triển.
+
+---
 ## Kết Luận
 
 Chúc bạn thành công trong việc cài đặt và chạy dự án! Nếu có bất kỳ vấn đề nào, hãy mở một issue trên repository này.
