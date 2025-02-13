@@ -1,0 +1,6 @@
+# dependencies
+SERVER2/.env
+SERVER2/uploads
+client2/node_modules
+SERVER2/node_modules
+SOCKET/node_modules
