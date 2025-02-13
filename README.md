@@ -20,64 +20,61 @@ Chào mừng bạn đến với dự án này! Dự án bao gồm một ứng d�
 1. Chuyển đến thư mục `client2`:
    ```bash
    cd client2
-Cài đặt các phụ thuộc:
-bash
+   ```
+2. Cài đặt các phụ thuộc:
+   ```bash
+   yarn install
+   ```
+3. Chạy ứng dụng:
+   ```bash
+   yarn start
+   ```
 
-Copy
-yarn install
-Chạy ứng dụng:
-bash
+### 2. Cài Đặt Server
 
-Copy
-yarn start
-2. Cài Đặt Server
-2.1. Server Chính (SERVER2)
-Chuyển đến thư mục SERVER2:
-bash
+#### 2.1. Server Chính (SERVER2)
 
-Copy
-cd SERVER2
-Tạo một file .env dựa trên file mẫu (nếu có) và điền thông tin cần thiết.
-Cài đặt các phụ thuộc:
-bash
+1. Chuyển đến thư mục `SERVER2`:
+   ```bash
+   cd SERVER2
+   ```
+2. Tạo một file `.env` dựa trên file mẫu (nếu có) và điền thông tin cần thiết.
+3. Cài đặt các phụ thuộc:
+   ```bash
+   npm install
+   ```
+4. Chạy server:
+   ```bash
+   npm start
+   ```
 
-Copy
-npm install
-Chạy server:
-bash
+#### 2.2. Server Socket (SOCKET)
 
-Copy
-npm start
-2.2. Server Socket (SOCKET)
-Chuyển đến thư mục SOCKET:
-bash
+1. Chuyển đến thư mục `SOCKET`:
+   ```bash
+   cd SOCKET
+   ```
+2. Cài đặt các phụ thuộc:
+   ```bash
+   npm install
+   ```
+3. Chạy server socket:
+   ```bash
+   npm start
+   ```
 
-Copy
-cd SOCKET
-Cài đặt các phụ thuộc:
-bash
+## Thư Mục Không Cần Đưa Lên Git
 
-Copy
-npm install
-Chạy server socket:
-bash
+Để tránh đẩy các thư mục không cần thiết lên GitHub, hãy đảm bảo rằng bạn đã thêm các thư mục sau vào file `.gitignore`:
 
-Copy
-npm start
-Thư Mục Không Cần Đưa Lên Git
-Để tránh đẩy các thư mục không cần thiết lên GitHub, hãy đảm bảo rằng bạn đã thêm các thư mục sau vào file .gitignore:
-
-
-Copy
+```
 SERVER2/.env
 SERVER2/uploads
 client2/node_modules
 SERVER2/node_modules
 SOCKET/node_modules
-Kết Luận
+```
+
+## Kết Luận
+
 Chúc bạn thành công trong việc cài đặt và chạy dự án! Nếu có bất kỳ vấn đề nào, hãy mở một issue trên repository này.
-
-
-Copy
-
-Bạn có thể sao chép nội dung trên và lưu vào file `README.md` trong dự án của mình.
