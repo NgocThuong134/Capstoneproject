@@ -1,3 +1,6 @@
+# Video demo
+[![Watch the video](https://img.youtube.com/vi/fF-z6LmvYkY/0.jpg)](https://youtu.be/fF-z6LmvYkY)
+
 # Dự Án Node.js và React với Tailwind
 
 Chào mừng bạn đến với dự án này! Dự án bao gồm một ứng dụng client được xây dựng bằng React và Tailwind CSS, cùng với hai server sử dụng Node.js.
